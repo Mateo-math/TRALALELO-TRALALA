@@ -1,0 +1,141 @@
+.hubicacion{
+    width: 1000px;
+    height:800px;
+    background-color: white;
+    border-radius: 20px;
+margin: 0 auto;
+
+}
+
+.titulo{
+    width: 1000px;
+    background-color:rgb(80, 92, 92) ;
+    height: 100px;
+border-radius: 20px 20px 0 0;
+text-align: center;
+font-size: 30px;
+color: white;
+font-style: bold;
+line-height: 100px;
+}
+
+body{
+    background-color: black;
+}
+nav{
+    text-align: center;
+    padding: 15px;
+    
+    background-color: #161718;
+    
+    
+}
+nav a{
+    text-decoration:none ;
+    color: white;
+}
+
+nav a:hover{
+   color: rgb(117, 55, 175) ;
+}
+
+ul,li{
+    display: inline;
+    padding: 0 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.cajajmap{
+    position: relative;
+    top: 20px;
+
+    width: 500px;
+    margin: 0 auto;
+     border-radius:20px ;
+     height: 300px;
+     
+     background-image: url('1.png');
+     background-size: cover;
+    background-position: center;
+}
+ .bolita{
+
+width: 30px;
+border-radius: 50px;
+height: 30px;
+background-color: red;
+position: relative;
+left: 220px;
+top: 80px;
+animation:joder 2s infinite ;
+
+ }
+
+ .bolita::before {
+            content: "📍";
+            font-size: 20px;
+        }
+
+        @keyframes joder{
+            0%{
+                transform:translateY(0); 
+            }
+25% { 
+                transform:translateY(-15PX); 
+            }
+            50%{ 
+                transform:  translateY(0px); 
+            }
+            75% { 
+                transform:translateY(-8px); 
+            }
+
+            100%{
+                transform:translateY(0px );
+            }
+
+        }
+        .info{
+            margin-top: 20px;
+               width: 500px;
+    background-color:rgb(40, 128, 128) ;
+    height: 100px;
+border-radius: 20px;
+margin: 0 auto;
+margin-top: 50px;
+text-align: center;
+line-height: 100px;
+        }
+
+        .alt{
+             width: 90px;
+    height: 90px;
+    position: relative;
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    top: 20px;
+    
+     
+        
+border: 5px solid #818183;
+        }
+         #pibe{
+        
+        width: 170px
+
+    }
+    .ft1 {
+    background-color: #202122; 
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid rgb(117, 55, 175); 
+    margin-top: 40px;
+}
+
+.ftc{
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: aliceblue;
+}
