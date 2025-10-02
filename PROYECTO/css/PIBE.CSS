@@ -25,12 +25,12 @@ nav a:hover{
    padding: 15px 25px;
 }
 .bx1{
-    width: 1000px;
+    width: 1500px;
     height: 600px;
     background-color:  #F2E8CF;
     margin: 0 auto; 
    text-align: center;
- 
+  flex-wrap: wrap;
    border-radius:20px ;
    box-shadow: black;
 justify-items: center;
@@ -292,7 +292,7 @@ position: absolute;
 position: absolute;
   top: 50px;        
     left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-80%);
  display: flex;
  align-items: center;
  justify-content: center;
@@ -308,7 +308,7 @@ position: absolute;
 position: absolute;
   top: 50px;        
     left: 50%;
-      transform: translateX(180%);
+      transform: translateX(240%);
  display: flex;
  align-items: center;
  justify-content: center;
@@ -324,7 +324,7 @@ position: absolute;
 position: absolute;
   top: 50px;        
     left: 50%;
-      transform: translateX(-290%);
+      transform: translateX(-410%);
  display: flex;
  align-items: center;
  justify-content: center;
@@ -340,6 +340,25 @@ position: absolute;
     overflow: hidden;
 
   
+}
+
+
+
+#hola{
+  width: 80px;
+  height: 80px; 
+border-radius: 30px;
+
+
+
+
+
+
+}
+
+.fiu{
+
+text-align: right;
 }
 
 
